@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="user-name">User name</label>
+        <input type="text" id="user-name" name="user-name"><br>
+
+        <fieldset>
+            <legend>Important datata</legend>
+
+        <label for="html">Html</label>
+        <input type="radio" id="html" name="prog_lang">
+
+        <label for="css">Css</label>
+        <input type="radio" id="css" name="prog_lang">
+
+        <label for="js">JS</label>
+        <input type="radio" id="js" name="prog_lang">
+
+        <label for="question">Question</label>
+        <input type="checkbox" name="question" id="question"> <br>
+
+       </fieldset>
+
+        <select name="city" id="city" size="1" multiple>
+            <option value="tln">Tallinna</option>
+            <option value="lnd">Londonium</option>
+            <option value="ny" selected >New-Yorker</option>
+        </select><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" style="resize: none;">
+            ssss
+        </textarea><br>
+
+        <button type="button" onclick="alert('Hello world'); ">Click me.</button>"></button>
+
+        <datalist id="names">
+            <option value="roman">Roma</option>
+            <option value="vovan">Vova</option>
+            <option value="slavan">Slava</option>
+
+        </datalist>
+        <input type="text" list="names">
+
+        <input type="submit" value="Kick Me!" >
+
+    </form>
+</body>
+</html>
